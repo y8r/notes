@@ -4,6 +4,7 @@ Session Class
 #### session->get(string $key)
     $session->get($key=null);
 returns key from $_SESSION if it exists, falls back to $_COOKIE, else false
+> To return all session keys leave the argument blank. `session->get()` or `session->get(null)`
 
 #### session->set(string $key, mixed $value)
     $session->set($key, $value);
