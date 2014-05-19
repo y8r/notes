@@ -1,3 +1,6 @@
+Session Class
+=============
+
 #### session->get(string $key)
 ```
 $session->get($key=null);
