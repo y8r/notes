@@ -9,3 +9,17 @@ returns key from $_SESSION if it exists, falls back to $_COOKIE, else false
 #### session->set(string $key, mixed $value)
     $session->set($key, $value);
 sets value to $_SESSION key
+
+#### session->setcookie()
+#### session->remove()
+#### session->removeAllCookies()
+
+#### session->reset()
+#### session->start()
+#### session->destroy()
+
+#### session->exists()
+#### session->is_empty()
+
+#### session->_session_exists()
+#### sesssion->_cookie_exists()
